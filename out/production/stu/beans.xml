@@ -38,7 +38,7 @@
 		*　接口的方法名必须和映射Statement的ｉｄ一致
 	 -->
 	 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-	 <property name="basePackage" value="cn.mapper"></property>
+	 <property name="basePackage" value="cn.dao"></property>
 	 <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
 	 </bean>
 	

@@ -1,7 +1,7 @@
 package cn.service;
 
-import cn.mapper.AdminMapper;
-import cn.pojo.Admin;
+import cn.dao.AdminMapper;
+import cn.model.Admin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

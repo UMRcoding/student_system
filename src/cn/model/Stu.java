@@ -1,4 +1,4 @@
-package cn.pojo;
+package cn.model;
 
 public class Stu {
     private String id;

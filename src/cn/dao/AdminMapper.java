@@ -1,6 +1,6 @@
-package cn.mapper;
+package cn.dao;
 
-import cn.pojo.Admin;
+import cn.model.Admin;
 
 import java.util.List;
 

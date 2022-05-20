@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.mapper.StuMapper">
-  <resultMap id="BaseResultMap" type="cn.pojo.Stu">
+<mapper namespace="cn.dao.StuMapper">
+  <resultMap id="BaseResultMap" type="cn.model.Stu">
     <id column="id" jdbcType="VARCHAR" property="id" />
     <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="sex" jdbcType="VARCHAR" property="sex" />
@@ -31,13 +31,13 @@
     delete from stu
     where id = #{id,jdbcType=VARCHAR}
   </delete>
-  <insert id="insert" parameterType="cn.pojo.Stu">
+  <insert id="insert" parameterType="cn.model.Stu">
     insert into stu (id, name, sex, 
       classno, worktime)
     values (#{id,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{sex,jdbcType=VARCHAR}, 
       #{classno,jdbcType=VARCHAR}, #{worktime,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="cn.pojo.Stu">
+  <insert id="insertSelective" parameterType="cn.model.Stu">
     insert into stu
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -74,7 +74,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="cn.pojo.Stu">
+  <update id="updateByPrimaryKeySelective" parameterType="cn.model.Stu">
     update stu
     <set>
       <if test="name != null">
@@ -92,7 +92,7 @@
     </set>
     where id = #{id,jdbcType=VARCHAR}
   </update>
-  <update id="updateByPrimaryKey" parameterType="cn.pojo.Stu">
+  <update id="updateByPrimaryKey" parameterType="cn.model.Stu">
     update stu
     set name = #{name,jdbcType=VARCHAR},
       sex = #{sex,jdbcType=VARCHAR},

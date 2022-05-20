@@ -1,4 +1,4 @@
-package cn.pojo;
+package cn.model;
 
 public class Admin {
     private Integer id;

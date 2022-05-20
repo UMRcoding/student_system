@@ -1,6 +1,6 @@
-package cn.mapper;
+package cn.dao;
 
-import cn.pojo.Stu;
+import cn.model.Stu;
 
 import java.util.List;
 

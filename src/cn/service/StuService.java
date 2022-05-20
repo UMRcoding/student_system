@@ -1,7 +1,7 @@
 package cn.service;
 
-import cn.mapper.StuMapper;
-import cn.pojo.Stu;
+import cn.dao.StuMapper;
+import cn.model.Stu;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

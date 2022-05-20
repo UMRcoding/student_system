@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="stu:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21942902-a3d9-46e9-afef-05d1d649df5d" name="Changes" comment="pojo层，Dao层，Mapper层，service层，controller层">
+      <change beforePath="$PROJECT_DIR$/config/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/sqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/controller/StuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/controller/StuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/dao/AdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/dao/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mapper/StuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/dao/StuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mapper/StuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/dao/StuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/pojo/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/model/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/pojo/Stu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/model/Stu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/service/StuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/service/StuService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Data\apache-maven-3.8.4\repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Data/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="D:\Data\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29KxldVHIuCoo9Shy4uDqtw7MaW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cn/pojo" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BaiduNetdiskDownload\大气候工作文件备份\代码\stu\src\cn\pojo" />
+      <recent name="D:\BaiduNetdiskDownload\大气候工作文件备份\代码\stu\src\cn\mapper" />
+      <recent name="D:\BaiduNetdiskDownload\大气候工作文件备份\代码\stu\web" />
+      <recent name="D:\BaiduNetdiskDownload\大气候工作文件备份\代码\stu\web\WEB-INF\lib" />
+      <recent name="D:\BaiduNetdiskDownload\大气候工作文件备份\代码\stu\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="stu:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/stu_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="9bc3cc1a-0e1b-488f-ba23-d9fd9214a749" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51854" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="stu:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21942902-a3d9-46e9-afef-05d1d649df5d" name="Changes" comment="" />
+      <created>1652875731186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652875731186</updated>
+      <workItem from="1652875733287" duration="1790000" />
+      <workItem from="1652885794306" duration="1316000" />
+      <workItem from="1652887169333" duration="882000" />
+      <workItem from="1653020146627" duration="977000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1653020701804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653020701804</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1653020724334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653020724334</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add">
+      <created>1653020736416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653020736416</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add">
+      <created>1653020737975</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653020737975</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add">
+      <created>1653020747297</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653020747297</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add">
+      <created>1653020752004</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653020752004</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add">
+      <created>1653020754804</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653020754804</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add">
+      <created>1653021024687</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653021024687</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add .">
+      <created>1653021034366</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653021034366</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="add" />
+    <MESSAGE value="add ." />
+    <MESSAGE value="pojo层，Dao层，Mapper层，service层，controller层" />
+    <option name="LAST_COMMIT_MESSAGE" value="pojo层，Dao层，Mapper层，service层，controller层" />
+  </component>
+</project>
